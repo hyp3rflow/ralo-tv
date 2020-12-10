@@ -6,17 +6,21 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <img
+          style={{ width: '200px', height: '200px' }}
+          src={'./ralo.jpeg'}
+          className="App-logo"
+          alt="logo"
+        />
+        <br />
+        <p>Ralo.tv</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://twitch.tv/aba4647"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Ralo
         </a>
       </header>
     </div>
